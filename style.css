@@ -1,0 +1,28 @@
+body {
+  background-image: url("http://cs305710.vk.me/v305710497/63a7/eNq_OEnCDUE.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: lightblue;
+  background-position: center top;  
+}
+
+.menu {
+  background-color: black;
+  background-image: url(https://abs.twimg.com/a/1386875985/t1/img/twitter_web_sprite_bgs.png);
+  width: 100%;
+  position: fixed;
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  padding: 0;
+}
+
+.all {
+  width: 80%;
+  height: 100%;
+  background-image: url(https://abs.twimg.com/a/1386875985/t1/img/wash-black-30.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  
+}
