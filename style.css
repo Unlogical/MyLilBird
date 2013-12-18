@@ -24,6 +24,21 @@ body {
   height: 40px;
   background-image: url(style/twitter_web_sprite_icons.png);
   background-position: -40px 0;
+} 
+
+.menu_element {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.mainpic {
+  display: inline-block;
+  margin-left: 50px;
+  width: 40px;
+  height: 40px;
+  background-image: url(style/twitter_web_sprite_icons.png);
+  background-position: -40px 0;
 }
 
 .left, .right {
