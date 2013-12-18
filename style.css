@@ -11,30 +11,34 @@ body {
   background-image: url(style/twitter_web_sprite_bgs.png);
   width: 100%;
   position: fixed;
-  top: 0;
+  top: -20px;
   left: 0;
   height: 50px;
 }
 
 
 .bird {
-  margin-left: 460px;
-  margin-top: -10px;
+  position: fixed;
+  top: 10px;
+  left: 460px;
   width: 40px;
   height: 40px;
   background-image: url(style/twitter_web_sprite_icons.png);
   background-position: -40px 0;
 } 
 
-.menu_element {
+li {
+  position: relative;
   display: inline-block;
   margin-left: 10px;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 .mainpic {
   display: inline-block;
-  margin-left: 50px;
+  position: relative;
+  left: 20px;
+  top: 20px;
   width: 40px;
   height: 40px;
   background-image: url(style/twitter_web_sprite_icons.png);
