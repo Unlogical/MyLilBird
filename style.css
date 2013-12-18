@@ -11,10 +11,9 @@ body {
   background-image: url(style/twitter_web_sprite_bgs.png);
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   height: 50px;
-  margin-top: -10px;
-  margin-left: -10px;
-  margin-bottom: 70px;
 }
 
 
@@ -29,11 +28,13 @@ body {
 
 .vertical {
   background-color: white;
-  height: 200px;
+  height: 150px;
 }
 
 .left {
   width: 300px;
   margin-left: 55px;
-  margin-top: 70px;
+  margin-top: 60px;
+  border-radius : 5px;
 }
+
