@@ -6,6 +6,10 @@ body {
   background-position: center top;  
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu {
   display: inline-block;
   background-image: url(style/twitter_web_sprite_bgs.png);
@@ -38,11 +42,11 @@ li {
   display: inline-block;
   position: relative;
   left: 20px;
-  top: 20px;
+  top: 0;
   width: 40px;
-  height: 40px;
+  height: 30px;
   background-image: url(style/twitter_web_sprite_icons.png);
-  background-position: -40px 0;
+  background-position: 0 -50px;
 }
 
 .left, .right {
