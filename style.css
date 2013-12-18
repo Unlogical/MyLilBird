@@ -55,21 +55,21 @@ li {
   margin-right: 15px;
 }
 
-.mainpic {
+.main > .pic {
   background-position: 0 -50px;
 }
 
-.onlinepic {
+.online > .pic {
   background-position: -80px -50px;
 }
 
-.you_knowpic {
+.you_know > .pic {
   background-position: -40px -50px;
   left: 21px;
   margin-right: 11px;
 }
 
-.I_ampic {
+.I_am > .pic {
   background-position: -120px -110px;
   left: 20px;
   margin-right: 13px;
