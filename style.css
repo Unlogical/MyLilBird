@@ -7,27 +7,33 @@ body {
 }
 
 .menu {
-  background-color: black;
+  display: inline-block;
   background-image: url(style/twitter_web_sprite_bgs.png);
   width: 100%;
   position: fixed;
-  height: 40px;
+  height: 50px;
   margin-top: -10px;
   margin-left: -10px;
-  padding: 0;
+  margin-bottom: 70px;
 }
 
-.all {
-  width: 80%;
-  height: 100%;
-  background-image: url(wash-black-30.png);
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-position: center top; 
-}
 
 .bird {
+  margin-left: 460px;
+  margin-top: -10px;
   width: 40px;
   height: 40px;
   background-image: url(style/twitter_web_sprite_icons.png);
-  }
+  background-position: -40px 0;
+}
+
+.vertical {
+  background-color: white;
+  height: 200px;
+}
+
+.left {
+  width: 300px;
+  margin-left: 55px;
+  margin-top: 70px;
+}
