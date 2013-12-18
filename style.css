@@ -26,15 +26,46 @@ body {
   background-position: -40px 0;
 }
 
-.vertical {
+.left, .right {
+  margin-top: 10px;
+  border-radius : 5px;
   background-color: white;
-  height: 150px;
 }
 
 .left {
-  width: 300px;
   margin-left: 55px;
+  width: 300px;
+}
+
+.right {
+  margin-left: 370px;
+  width: 520px;
+  margin-top: -1010px;
+}
+
+.vertical {
+  height: 160px;
   margin-top: 60px;
-  border-radius : 5px;
+}
+
+
+.foto {
+  height: 230px;
+}
+
+.people {
+  height: 240px;
+}
+
+.theme {
+  height: 240px;
+}
+
+.about {
+  height: 100px;
+}
+
+.info{
+  height: 305px;
 }
 
