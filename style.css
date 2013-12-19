@@ -29,8 +29,8 @@ a {
 
 .bird {
   position: fixed;
-  top: 10px;
-  left: 460px;
+  top: 8px;
+  left: 455px;
   width: 40px;
   height: 40px;
   background-image: url(style/twitter_web_sprite_icons.png);
@@ -73,6 +73,18 @@ li {
   background-position: -120px -110px;
   left: 20px;
   margin-right: 13px;
+}
+
+input{
+  position: relative;
+  left: 500px;
+  top: -35px;
+  width: 202px;
+  height: 23px;
+  background-color:rgb(208, 208, 208);
+  color: rgb(68, 68, 68);
+  border-radius: 15px; 
+  border: none;
 }
 
 .left, .right {
