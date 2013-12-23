@@ -135,6 +135,38 @@ input{
   background-position: -112px -873px;
 }
 
+.help {
+  position: relative;
+  top: -100px;
+  left: 710px;
+  width: 45px;
+  height: 38px;
+  padding: 0;
+  z-index: 1;
+}
+
+.help_icon {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  width: 30px;
+  height: 38px;
+  background-image: url(style/twitter_web_sprite_icons.png);
+  background-position: 145px -42px;
+  z-index: 2;
+}
+
+.help:hover .help_icon, .help:hover .helpdown {
+  background-position: 145px -72px;
+}
+
+.helpdown {
+  color:rgb(187,187,187);
+  position:relative; 
+  top: 10px;
+  z-index: 2;
+}
+
 .left, .right {
   margin-top: 10px;
   border-radius : 5px;
