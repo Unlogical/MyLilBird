@@ -9,7 +9,7 @@ body {
   font-family: Liberation Sans;
 }
 
-a {
+.menu a {
   text-decoration: none;
   color: rgb(187,187,187);
 }
@@ -73,8 +73,16 @@ li:hover > a {
   color: white;
 }
 
-li:hover > .main > .pic {
+li:hover .mainpic {
     background-position: 0 -80px;
+}
+
+li:hover .onlinepic {
+    background-position: -80px -80px;
+}
+
+li:hover .you_knowpic {
+    background-position: -40px -80px;
 }
 
 .I_am > a {
