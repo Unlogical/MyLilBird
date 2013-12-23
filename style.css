@@ -129,10 +129,11 @@ input{
   height: 38px;
   background-image: url(style/twitter_web_sprite_icons.png);
   background-position: -82px -873px;
-  
 }
 
-
+.message:hover {
+  background-position: -112px -873px;
+}
 
 .left, .right {
   margin-top: 10px;
