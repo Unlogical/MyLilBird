@@ -41,6 +41,8 @@ li {
   display: inline-block;
   height: 38px;
   background-color: black;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .pic {
@@ -53,6 +55,7 @@ li {
   height: 30px;
   background-image: url(style/twitter_web_sprite_icons.png);
   margin-right: 15px;
+  margin-left: -15px;
 }
 
 .main > .pic {
