@@ -9,17 +9,35 @@ body {
   font-family: Liberation Sans;
 }
 
-.menu a {
+.leftmenu a {
   text-decoration: none;
   color: rgb(187,187,187);
 }
 
-.menu {
+.leftmenu {
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  top: -12px;
+  left: 0;
+  height: 50px;
+}
+
+.rightmenu {
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  top: -12px;
+  left: 0;
+  height: 50px;
+}
+
+.panel {
   display: inline-block;
   background-image: url(style/twitter_web_sprite_bgs.png);
   width: 100%;
   position: fixed;
-  top: -12px;
+  top: 0;
   left: 0;
   height: 50px;
 }
