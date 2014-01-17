@@ -9,17 +9,17 @@ body {
   font-family: Liberation Sans;
 }
 
-.menu a {
+.panel a {
   text-decoration: none;
   color: rgb(187,187,187);
 }
 
-.menu {
+.panel, {
   display: inline-block;
   background-image: url(style/twitter_web_sprite_bgs.png);
   width: 100%;
   position: fixed;
-  top: -12px;
+  top:  0;
   left: 0;
   height: 50px;
 }
@@ -208,7 +208,7 @@ input{
 }
 
 .right {
-  margin-left: 42%;
+  margin-left: 42.5%;
   width: 520px;
   margin-top: -1010px;
 }
