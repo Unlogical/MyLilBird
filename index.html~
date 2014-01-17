@@ -24,12 +24,10 @@
         <a href="https://twitter.com/" class="I_ampic pic">&nbsp</a>
         <a href="https://twitter.com/" >Я</a>
       </li>
-    </ul>
       <div class="bird"></div> 
       <form class="search">
         <input type="text" >      
       </form> 
-    <ul>
       <div class="vertical_line"></div>
       <li class="message"></li>
       <div class="vertical_line"></div>
@@ -41,7 +39,7 @@
       <li class="tweet">
         <a href="https://twitter.com/" class="new_tweet">&nbsp</a>         
       </li> 
-    </ul>
+    </ul>  
     <div class="all">
       <div class="left vertical"></div>
       <div class="left foto"></div>

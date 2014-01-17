@@ -208,7 +208,7 @@ input{
 }
 
 .right {
-  margin-left: 42.5%;
+  margin-left: 42%;
   width: 520px;
   margin-top: -1010px;
 }
