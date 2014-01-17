@@ -9,24 +9,13 @@ body {
   font-family: Liberation Sans;
 }
 
-.leftmenu a {
+.leftmenu a, .rightmenu a {
   text-decoration: none;
   color: rgb(187,187,187);
 }
 
-.leftmenu {
+.leftmenu, .rightmenu {
   display: inline-block;
-
-  width: 100%;
-  position: fixed;
-  top: -12px;
-  left: 0;
-  height: 50px;
-}
-
-.rightmenu {
-  display: inline-block;
-
   width: 100%;
   position: fixed;
   top: -12px;
@@ -118,7 +107,7 @@ li:hover .you_knowpic {
 input{
   position: relative;
   left: 52%;
-  top: -30px;
+  top: 8px;
   width: 202px;
   height: 23px;
   background-color:rgb(208, 208, 208);
@@ -143,7 +132,7 @@ input{
   display: inline-block;
   position: relative;
   margin-top: 12px;
-  top: -74px;
+  top: -8px;
   left: 67%;
   width: 16px;
   height: 38px;
@@ -157,7 +146,7 @@ input{
 
 .help {
   position: relative;
-  top: -100px;
+  top: -40px;
   left: 67%;
   width: 45px;
   height: 38px;
@@ -168,7 +157,7 @@ input{
 .help_icon {
   display: inline-block;
   position: relative;
-  top: -2px;
+  top: 0;
   width: 30px;
   height: 38px;
   background-image: url(style/twitter_web_sprite_icons.png);
@@ -190,7 +179,7 @@ input{
 .tweet {
   display: inline-block;
   position: relative;
-  top: -96px;
+  top: -32px;
   left: 67%;
   width: 18px;
   height: 28px;
