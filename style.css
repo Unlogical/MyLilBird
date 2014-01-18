@@ -82,7 +82,7 @@ body {
   margin-right: 11px;
 }
 
-li:hover > a {
+.panel li:hover > a {
   color: white;
 }
 
