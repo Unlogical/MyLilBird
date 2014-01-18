@@ -108,7 +108,7 @@ li:hover .you_knowpic {
   width: 20px;
 }
 
-input{
+.panel input{
   position: relative;
   left: 52%;
   top: 8px;
@@ -187,7 +187,7 @@ input{
   top: -34px;
   left: 67%;
   width: 18px;
-  height: 10px;
+  height: 28px;
   background-image: url(style/twitter_web_sprite_bgs.png);
   background-position: 0 -139px;
   border-radius: 3px;
