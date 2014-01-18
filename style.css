@@ -9,18 +9,17 @@ body {
   font-family: Liberation Sans;
 }
 
-.leftmenu a, .rightmenu a {
+.leftmenu a, 
+.rightmenu a {
   text-decoration: none;
   color: rgb(187,187,187);
 }
 
-.leftmenu, .rightmenu {
-  display: inline-block;
+.leftmenu, 
+.rightmenu {
   width: 100%;
   position: fixed;
   top: -12px;
-  left: 0;
-  height: 50px;
 }
 
 .panel {
@@ -43,13 +42,18 @@ body {
   background-position: -40px 0;
 } 
 
-li {
+.leftmenu > li, 
+.rightmenu > li {
   position: relative;
   left: 15%;
   display: inline-block;
   height: 38px;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+.rightmenu > li {
+  left: 65%;
 }
 
 .pic {
@@ -165,7 +169,8 @@ input{
   z-index: 2;
 }
 
-.help:hover .help_icon, .help:hover .helpdown {
+.help:hover .help_icon, 
+.help:hover .helpdown {
   background-position: 145px -72px;
 }
 
@@ -182,7 +187,7 @@ input{
   top: -34px;
   left: 67%;
   width: 18px;
-  height: 28px;
+  height: 10px;
   background-image: url(style/twitter_web_sprite_bgs.png);
   background-position: 0 -139px;
   border-radius: 3px;
@@ -205,7 +210,8 @@ input{
   z-index: 2;
 }
 
-.left, .right {
+.left, 
+.right {
   margin-top: 10px;
   border-radius : 5px;
   background-color: white;
