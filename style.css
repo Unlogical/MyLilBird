@@ -15,12 +15,12 @@ body {
   color: rgb(187,187,187);
 }
 
-.leftmenu, 
+/*.leftmenu, 
 .rightmenu {
   width: 100%;
   position: fixed;
   top: -12px;
-}
+}*/
 
 .panel {
   display: inline-block;
@@ -32,7 +32,7 @@ body {
   height: 50px;
 }
 
-.bird {
+/*.bird {
   position: fixed;
   top: 8px;
   left: 48%;
@@ -40,33 +40,47 @@ body {
   height: 40px;
   background-image: url(style/twitter_web_sprite_icons.png);
   background-position: -40px 0;
-} 
+} */
+
+.leftmenu {
+  margin-left: 15%;
+}
+
+.rightmenu {
+  margin-left: 65%;
+  margin-bottom: 15%;
+}
 
 .leftmenu > li, 
 .rightmenu > li {
-  position: relative;
-  left: 15%;
-  display: inline-block;
-  height: 38px;
-  padding-left: 8px;
-  padding-right: 8px;
+  /*position: relative;
+  left: 15%;*/
+  display: inline-block;                   
+/*  padding-left: 8px;
+  padding-right: 8px;*/
+}
+
+.leftmenu > li {
+  height: 38px; 
 }
 
 .rightmenu > li {
-  left: 65%;
+/*  left: 65%;*/
+  height: 26px;
+  width: 36px;
 }
 
 .pic {
   display: inline-block;
-  position: relative;
-  margin-top: 12px;
-  left: 26%;
-  top: -3px;
+  /*position: relative;*/
+ /* margin-top: 12px;
+ /* left: 26%;
+  top: -3px;*/
   width: 30px;
   height: 30px;
   background-image: url(style/twitter_web_sprite_icons.png);
-  margin-right: 15px;
-  margin-left: -15px;
+ /* margin-right: 15px;
+  margin-left: -15px;*/
 }
 
 .main > .pic {
@@ -104,14 +118,14 @@ li:hover .you_knowpic {
 
 .I_am > .pic {
   background-position: -120px -110px;
-  left: 40%;
+ /* left: 40%;*/
   width: 20px;
 }
 
 .panel input{
-  position: relative;
+ /* position: relative;
   left: 52%;
-  top: 8px;
+  top: 8px;*/
   width: 202px;
   height: 23px;
   background-color:rgb(208, 208, 208);
@@ -122,10 +136,10 @@ li:hover .you_knowpic {
 
 .vertical_line {
   display: inline-block;
-  position: relative;
-  margin-top: 12px;
-  top: -74px;
-  left: 67%;
+ /* position: relative;*/
+  /*margin-top: 12px;
+  /*top: -74px;
+  left: 67%;*/
   width: 5px;
   height: 38px;
   background-image: url(style/twitter_web_sprite_icons.png);
@@ -134,79 +148,69 @@ li:hover .you_knowpic {
 
 .message {
   display: inline-block;
-  position: relative;
-  margin-top: 12px;
-  top: -8px;
-  left: 67%;
-  width: 16px;
-  height: 38px;
+  /*position: relative;*/
+  /*margin-top: 12px;
+  /*top: -8px;
+  left: 67%;*/
+  width: 28px;
+  height: 26px;
   background-image: url(style/twitter_web_sprite_icons.png);
-  background-position: -82px -873px;
+  background-position: -80px -873px;
 }
 
 .message:hover {
-  background-position: -112px -873px;
+  background-position: -110px -873px;
 }
 
-.help {
-  position: relative;
-  top: -40px;
-  left: 67%;
-  width: 45px;
-  height: 38px;
-  padding: 0;
-  z-index: 1;
-}
 
-.help_icon {
+.gear {
   display: inline-block;
-  position: relative;
-  top: 0;
-  width: 30px;
-  height: 38px;
+  width: 26px;
+  height: 26px;
   background-image: url(style/twitter_web_sprite_icons.png);
-  background-position: 145px -42px;
+  background-position: 143px -48px;
   z-index: 2;
 }
 
-.help:hover .help_icon, 
-.help:hover .helpdown {
-  background-position: 145px -72px;
+.help:hover .gear, 
+.help:hover .down {
+  background-position: 143px -78px;
 }
 
-.helpdown {
+ .down {
   color:rgb(187,187,187);
-  position:relative; 
-  top: 10px;
+ /* position:relative; 
+  /*top: 10px;*/
   z-index: 2;
+  
 }
 
 .tweet {
   display: inline-block;
-  position: relative;
+ /* position: relative;
   top: -34px;
-  left: 67%;
-  width: 18px;
-  height: 28px;
+  left: 67%;*/
+  
   background-image: url(style/twitter_web_sprite_bgs.png);
-  background-position: 0 -139px;
+  background-position: 0 -140px;
   border-radius: 3px;
   z-index: 1;
 }
 
 .tweet:hover {
-  background-position: 0 -169px;
+  background-position: 0 -170px;
 }
 
 .new_tweet {
   display: inline-block;
-  position: relative;
-  left: -1px;
+ /* position: relative;
+  left: -1px;*/
   width: 25px;
   height: 25px;
   background-image: url(style/twitter_web_sprite_icons.png);
-  background-position: 102px -46px;
-
+  background-position: 102px -47px;
+  margin-left: 6px;
+  
   z-index: 2;
 }
 
