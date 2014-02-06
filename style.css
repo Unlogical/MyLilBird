@@ -1,260 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  background-image: url(style/background.jpeg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-color: lightblue;
-  background-position: center top;  
+  background: lightblue url(style/background.jpeg) fixed no-repeat;
+  background-position: center top;
   font-size: 12px;
   font-weight: bold;
   font-family: Liberation Sans;
+}
+
+.centering {
+  padding-left: 50%;
+}
+
+.centered{
+  width: 900px;
+  margin-left: -450px; 
+}
+
+.content{
+  background: rgba(0,0,0,0.5);
+  height: 500px;
+}
+
+.panel {
+  display: block;
+  float: left;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 38px;
+  background-image: url(style/twitter_web_sprite_bgs.png);
+  
+}
+
+.tools > *{
+  float: left;
+  margin-right: 10px;
+}
+
+.leftmenu{
+  height: 100%;
+}
+
+.rightmenu{
+  height: 100%;
+}
+
+.leftmenu > li, 
+.rightmenu > li{
+  display: block;
+  float: left;
+}
+
+.leftmenu > li > *, 
+.rightmenu > li > *{
+  margin-top: 13px;
+  margin-right: 10px;
+}
+
+.leftmenu > li{
+  height: 100%;
+}
+
+.rightmenu > li{
+  height: 26px;
+  width: 36px;
 }
 
 .leftmenu a, 
 .rightmenu a {
   text-decoration: none;
   color: rgb(187,187,187);
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
-/*.leftmenu, 
-.rightmenu {
-  width: 100%;
-  position: fixed;
-  top: -12px;
+.leftmenu a:hover,
+.rightmenu a:hover{
+  color: white;
+}
+
+.leftmenu .pic, 
+.rightmenu .pic{
+  margin-top: -7px;
+}
+
+.current a{
+  color: white;
+}
+
+/*
+.vertical_line {
+  display: block;
+  float: left;
+  width: 5px;
+  height: 38px;
+  background-color: green;
+  background-image: url(style/twitter_web_sprite_icons.png);
+  background-position: -239px -50px;
 }*/
 
-.panel {
-  display: inline-block;
-  background-image: url(style/twitter_web_sprite_bgs.png);
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 50px;
-}
 
-/*.bird {
-  position: fixed;
-  top: 8px;
-  left: 48%;
-  width: 40px;
-  height: 40px;
-  background-image: url(style/twitter_web_sprite_icons.png);
-  background-position: -40px 0;
-} */
-
-.leftmenu {
-  margin-left: 15%;
-}
-
-.rightmenu {
-  margin-left: 65%;
-  margin-bottom: 15%;
-}
-
-.leftmenu > li, 
-.rightmenu > li {
-  /*position: relative;
-  left: 15%;*/
-  display: inline-block;                   
-/*  padding-left: 8px;
-  padding-right: 8px;*/
-}
-
-.leftmenu > li {
-  height: 38px; 
-}
-
-.rightmenu > li {
-/*  left: 65%;*/
-  height: 26px;
-  width: 36px;
-}
-
-.pic {
-  display: inline-block;
-  /*position: relative;*/
- /* margin-top: 12px;
- /* left: 26%;
-  top: -3px;*/
-  width: 30px;
-  height: 30px;
-  background-image: url(style/twitter_web_sprite_icons.png);
- /* margin-right: 15px;
-  margin-left: -15px;*/
-}
-
-.main > .pic {
-  background-position: 0 -50px;
-}
-
-.online > .pic {
-  background-position: -80px -50px;
-}
-
-.you_know > .pic {
-  background-position: -40px -50px;
-  margin-right: 11px;
-}
-
-.panel li:hover > a {
-  color: white;
-}
-
-li:hover .mainpic {
-    background-position: 0 -80px;
-}
-
-li:hover .onlinepic {
-    background-position: -80px -80px;
-}
-
-li:hover .you_knowpic {
-    background-position: -40px -80px;
-}
-
-.I_am > a {
-  color: white;
-}
-
-.I_am > .pic {
-  background-position: -120px -110px;
- /* left: 40%;*/
-  width: 20px;
-}
-
-.panel input{
- /* position: relative;
-  left: 52%;
-  top: 8px;*/
+.search input{
   width: 202px;
   height: 23px;
   background-color:rgb(208, 208, 208);
   color: rgb(68, 68, 68);
   border-radius: 15px; 
   border: none;
+  margin-top: 7px;
 }
 
-.vertical_line {
-  display: inline-block;
- /* position: relative;*/
-  /*margin-top: 12px;
-  /*top: -74px;
-  left: 67%;*/
-  width: 5px;
-  height: 38px;
-  background-image: url(style/twitter_web_sprite_icons.png);
-  background-position: -239px -48px;
-}
-
-.message {
-  display: inline-block;
-  /*position: relative;*/
-  /*margin-top: 12px;
-  /*top: -8px;
-  left: 67%;*/
-  width: 28px;
+.pic {
+  display: block;
+  float: left;
+  width: 30px;
   height: 26px;
   background-image: url(style/twitter_web_sprite_icons.png);
+}
+
+.mainpic {
+  background-position: 0 -50px;
+}
+
+*:hover > .mainpic{
+  background-position: 0 -80px;
+}
+
+.onlinepic {
+  background-position: -80px -50px;
+}
+
+*:hover > .onlinepic {
+  background-position: -80px -80px;
+}
+
+.you_knowpic {
+  background-position: -40px -50px;
+}
+
+*:hover > .you_knowpic {
+  background-position: -40px -80px;
+}
+
+.I_ampic {
+  background-position: -120px -110px;
+}
+
+.birdpic {
+  background-position: -35px 5px;
+  margin-top: 5px;
+} 
+
+.messagepic {
   background-position: -80px -873px;
 }
 
-.message:hover {
+*:hover > .messagepic {
   background-position: -110px -873px;
 }
 
-
-.gear {
-  display: inline-block;
-  width: 26px;
-  height: 26px;
-  background-image: url(style/twitter_web_sprite_icons.png);
+.gearpic {
   background-position: 143px -48px;
-  z-index: 2;
 }
 
-.help:hover .gear, 
-.help:hover .down {
+*:hover >  .gearpic {
   background-position: 143px -78px;
 }
 
- .down {
-  color:rgb(187,187,187);
- /* position:relative; 
-  /*top: 10px;*/
-  z-index: 2;
-  
-}
-
-.tweet {
-  display: inline-block;
- /* position: relative;
-  top: -34px;
-  left: 67%;*/
-  
-  background-image: url(style/twitter_web_sprite_bgs.png);
-  background-position: 0 -140px;
+.tweetpic {
+  background-image:url(style/twitter_web_sprite_icons.png), url(style/twitter_web_sprite_bgs.png);
+  background-position: 105px -47px, 0 -140px;
   border-radius: 3px;
-  z-index: 1;
 }
 
-.tweet:hover {
-  background-position: 0 -170px;
+*:hover >  .tweetpic{
+  background-position: 105px -47px, 0 -170px;
 }
-
-.new_tweet {
-  display: inline-block;
- /* position: relative;
-  left: -1px;*/
-  width: 25px;
-  height: 25px;
-  background-image: url(style/twitter_web_sprite_icons.png);
-  background-position: 102px -47px;
-  margin-left: 6px;
-  
-  z-index: 2;
-}
-
-.left, 
-.right {
-  margin-top: 10px;
-  border-radius : 5px;
-  background-color: white;
-}
-
-.left {
-  margin-left: 19%;
-  width: 300px;
-}
-
-.right {
-  margin-left: 42.5%;
-  width: 520px;
-  margin-top: -1010px;
-}
-
-.vertical {
-  height: 160px;
-  margin-top: 60px;
-}
-
-
-.foto {
-  height: 230px;
-}
-
-.people {
-  height: 240px;
-}
-
-.theme {
-  height: 240px;
-}
-
-.about {
-  height: 100px;
-}
-
-.info{
-  height: 305px;
-}
-
