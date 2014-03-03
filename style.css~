@@ -130,7 +130,7 @@ body {
 }
 
 .contentleft{
-  width: 35%;
+  width: 33%;
 }
 /*ЛЕВОЕ ВЕРХНЕЕ МЕНЮ*/
 .verticalmenu {
@@ -161,18 +161,19 @@ body {
 }
 /*КАРТИНКИ*/
 .photos {
-  height: 230px;
-  margin-top: 20px;
+  height: 185px;
+  margin-top: 10px;
   padding: 10px;
 }
 
 .photo {
-  height: 80px;
-  width: 80px;
+  height: 88px;
+  width: 88px;
   display: block;
   float: left;
-  margin: 5px;
+  margin: 2px;
   background-size: cover;
+  background-position: center center;
 }
 
 .photo1 {
