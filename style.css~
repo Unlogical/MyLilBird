@@ -124,15 +124,15 @@ body {
   font-weight: normal;
 }
 
-.content > * {
+.contentleft > *, .contentright > * {
   border-radius: 5px;
   background-color: rgb(248,248,248);
 }
 
 .contentleft{
-  width: 30%;
+  width: 35%;
 }
-
+/*ЛЕВОЕ ВЕРХНЕЕ МЕНЮ*/
 .verticalmenu {
    height: 100%;
    font-size: 14px;
@@ -155,9 +155,48 @@ body {
   height: 20px;
 }
 
-.verticalmenu a:hover li{
+.verticalmenu a:hover {
   color: rgb(52,67,77); 
   background-color: rgb(255,255,255);
+}
+/*КАРТИНКИ*/
+.photos {
+  height: 230px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.photo {
+  height: 80px;
+  width: 80px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-size: cover;
+}
+
+.photo1 {
+  background-image: url(style/photo1.jpg); 
+}
+
+.photo2 {
+  background-image: url(style/photo2.jpg); 
+}
+
+.photo3 {
+  background-image: url(style/photo3.jpg); 
+}
+
+.photo4 {
+  background-image: url(style/photo4.jpg); 
+}
+
+.photo5 {
+  background-image: url(style/photo5.jpg); 
+}
+
+.photo6 {
+  background-image: url(style/photo6.jpg); 
 }
 
 /* ICONS*/
