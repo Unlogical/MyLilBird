@@ -135,7 +135,12 @@ body {
 
 .verticalmenu {
    height: 100%;
-   
+   font-size: 14px;
+}
+
+.verticalmenu li {
+  display: block;
+  
 }
 
 .verticalmenu a{
@@ -210,4 +215,11 @@ body {
 
 *:hover >  .tweetpic{
   background-position: 105px -47px, 0 -170px;
+}
+
+.arrowpic {
+  float: right;
+  height: 14px;
+  width: 10px;
+  background-position: 0px -140px;
 }

@@ -31,7 +31,7 @@
     </div>
     <div class="centering">
       <div class="content centered">
-        <div class="contentright">
+        <div class="contentleft">
           <ul class="verticalmenu">
             <li><a href="#">Твиты<span class="arrowpic pic"></span></a></li> 
             <li><a href="#">Читаемые<span class="messagepic pic"></span></a></li>
