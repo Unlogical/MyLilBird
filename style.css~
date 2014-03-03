@@ -124,7 +124,7 @@ body {
   background-color: rgb(255,255,255);
 }
 
-.contentleft{
+.contentright {
   width: 30%;
 }
 
