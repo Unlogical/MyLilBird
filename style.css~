@@ -117,6 +117,11 @@ body {
 .content{
   background: rgba(0,0,0,0.5);
   height: 1500px;
+  padding: 60px 10px;
+  text-decoration: none;
+  color: rgb(102,117,127);
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: normal;
 }
 
 .content > * {
@@ -124,13 +129,19 @@ body {
   background-color: rgb(255,255,255);
 }
 
-.contentright {
+.contentleft{
   width: 30%;
 }
 
 .verticalmenu {
-   height: 100px;
+   height: 100%;
    
+}
+
+.verticalmenu a{
+  text-decoration: none;
+  color: rgb(102,117,127);
+  
 }
 
 /* ICONS*/
