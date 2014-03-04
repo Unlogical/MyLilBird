@@ -163,10 +163,18 @@ body {
   padding: 5px;
 }
 
-.verticalmenu a:hover {
-  color: rgb(52,67,77); 
+.verticalmenu li:hover {
   background-color: rgb(255,255,255);
 }
+
+.verticalmenu li:hover a {
+  color: rgb(52,67,77); 
+}
+
+.verticalmenu li:last-child:hover, .verticalmenu li:first-child:hover {
+  border-radius: 5px;
+}
+
 /*КАРТИНКИ*/
 .photos {
   height: 185px;
