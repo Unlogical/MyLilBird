@@ -279,7 +279,7 @@ body {
   font-size: 14px;
  /* background-color: rgba(0,0,0,0.3);*/
   background-image: url(style/photo6.jpg);
-  height: 250px;
+  height: 200px;
   text-align: center;
   padding: 50px;
   background-size: cover;
@@ -333,8 +333,21 @@ body {
 }
 
 .bottom input {
-  height: 40px;
   float: right;
+  font-weight: bold;
+  color: rgb(102,117,127);
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid  rgb(225, 232, 237);
+  border-radius: 5px;
+  background-color: rgb(245, 248, 250);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 248, 250));
+}
+
+.bottom input:hover {
+  color: rgb(52,67,77);
+  background-image: linear-gradient(rgb(245, 248, 250), rgb(215, 222, 227));
 }
 
 /* ICONS*/
