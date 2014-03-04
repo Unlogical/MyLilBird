@@ -171,7 +171,7 @@ body {
   color: rgb(52,67,77); 
 }
 
-.verticalmenu li:last-child:hover, .verticalmenu li:first-child:hover {
+.verticalmenu li:last-child:hover, .verticalmenu li:first-of-type:hover {
   border-radius: 5px;
 }
 
