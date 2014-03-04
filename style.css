@@ -350,6 +350,12 @@ body {
   background-image: linear-gradient(rgb(245, 248, 250), rgb(215, 222, 227));
 }
 
+.bottom input:active {
+  color: rgb(59,136,195);
+  border: 2px solid rgb(59,136,195);
+  background-color: rgb(245, 248, 250); 
+}
+
 /* ICONS*/
 .pic {
   display: block;
