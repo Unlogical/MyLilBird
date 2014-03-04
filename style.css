@@ -167,11 +167,11 @@ body {
 }
 
 .photo {
-  height: 88px;
-  width: 88px;
+  height: 48%;
+  width: 31%;
   display: block;
   float: left;
-  margin: 2px;
+  margin: 1%;
   background-size: cover;
   background-position: center center;
 }

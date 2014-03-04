@@ -53,7 +53,9 @@
         <div class="contentright">
           <div class="profile">
           <div class="profilepic"></div>
-          <h1>Уварова Александра</h1><br><h2>@sakujo_sakijo</h2><br>Воронеж
+          <div class="header">Уварова Александра</div>
+          <div class="header2">@sakujo_sakijo</div>
+          <div>Воронеж</div>
           </div>
         </div>
       </div>
