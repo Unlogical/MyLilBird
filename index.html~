@@ -40,13 +40,21 @@
             <li><a href="#">Списки<span class="arrowpic pic"></span></a></li>                 
           </ul> 
           <div class="photos">
-            <span class="photo photo1"></span> 
-            <span class="photo photo2"></span> 
-            <span class="photo photo3"></span> 
-            <span class="photo photo4"></span>             
-            <span class="photo photo5"></span> 
-            <span class="photo photo6"></span> 
-          </div>       
+            <a href="#" class="photo photo1"></a> 
+            <a href="#" class="photo photo2"></a> 
+            <a href="#" class="photo photo3"></a> 
+            <a href="#" class="photo photo4"></a>             
+            <a href="#" class="photo photo5"></a> 
+            <a href="#" class="photo photo6"></a> 
+          </div> 
+          <div class="recommended">
+          </div>      
+        </div>
+        <div class="contentright">
+          <div class="profile">
+          <div class="profilepic"></div>
+          <h1>Уварова Александра</h1><br><h2>@sakujo_sakijo</h2><br>Воронеж
+          </div>
         </div>
       </div>
     </div>
