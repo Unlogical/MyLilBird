@@ -134,6 +134,8 @@ body {
 /*ЛЕВАЯ ЧАСТЬ*/
 .contentleft{
   width: 33%;
+  display: block;
+  float: left;
 }
 /*ЛЕВОЕ ВЕРХНЕЕ МЕНЮ*/
 .verticalmenu {
@@ -247,7 +249,7 @@ body {
 
 .contentright {
   width: 66%;
-  display: inline-block;
+  display: block;
   float: right;
 }
 
