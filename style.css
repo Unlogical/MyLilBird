@@ -226,6 +226,23 @@ body {
   font-weight: 200;
 }
 
+.link2 {
+  text-decoration: none;
+  color: rgb(102,117,127);
+}
+
+.links li {
+ display: inline-block;
+}
+
+.links:hover .link2 {
+  color: rgb(52,67,77);
+}
+
+.link2:hover {
+  text-decoration: underline;
+}
+
 /*ПРАВАЯ ЧАСТЬ*/
 
 .contentright {

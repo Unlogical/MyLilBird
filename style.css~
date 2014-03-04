@@ -217,9 +217,26 @@ body {
   color: rgb(59,136,195);
 }
 
+.link:hover {
+  text-decoration: underline;
+}
+
 .trends .header {
   font-size: 20px;
   font-weight: 200;
+}
+
+.link2 {
+  text-decoration: none;
+  color: rgb(102,117,127);
+}
+
+.links li {
+ display: inline-block;
+}
+
+.links:hover .link2 {
+  color: rgb(52,67,77);
 }
 
 /*ПРАВАЯ ЧАСТЬ*/
