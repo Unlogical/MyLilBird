@@ -269,6 +269,11 @@ body {
   float: right;
 }
 
+.main {
+  padding: 0;
+  border-radius: 6px 6px 5px 5px;
+}
+
 .profile {
   color: rgb(255,255,255);
   font-size: 14px;
@@ -278,6 +283,7 @@ body {
   text-align: center;
   padding: 50px;
   background-size: cover;
+  border-radius: 5px 5px 0 0;
 }
 
 .profile .header1 {
@@ -298,6 +304,37 @@ body {
   background-position: center center;
   background-size: cover;
   margin-left:210px;
+}
+
+.bottom {
+  padding: 10px;
+  height: 40px;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: rgb(102,117,127);
+  font-size: 10px;
+}
+
+.bottom li {
+  display: block;
+  float: left;
+  padding-right: 10%;
+}
+
+.bottom li:hover a {
+  color: rgb(59,136,195);
+}
+
+.bottom .number {
+  color: rgb(59,136,195);
+  font-size: 20px;
+}
+
+.bottom input {
+  height: 40px;
+  float: right;
 }
 
 /* ICONS*/
