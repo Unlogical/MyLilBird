@@ -48,14 +48,34 @@
             <a href="#" class="photo photo6"></a> 
           </div> 
           <div class="recommended">
-          </div>      
+          </div>  
+          <div class="trends">
+            <div class="hh">    
+              <span class="header">Актуальные темы</span>
+              <a class="link" href="#" >Изменить</a>
+            </div>
+            <ul class="list">
+              <li><a class="link" href="#" >#Украина</a></li> 
+              <li><a class="link" href="#" >#Другое_ПО</a></li>
+              <li><a class="link" href="#" >#Лео</a></li>
+              <li><a class="link" href="#" >#Оскар</a></li>
+              <li><a class="link" href="#" >Крым</a></li>
+              <li><a class="link" href="#" >Весна</a></li>
+              <li><a class="link" href="#" >Януковича</a></li>
+              <li><a class="link" href="#" >США</a></li>
+              <li><a class="link" href="#" >Витя</a></li>
+              <li><a class="link" href="#" >глупый</a></li>           
+            </ul>
+          </div> 
+          <div class="links">
+          </div>   
         </div>
         <div class="contentright">
           <div class="profile">
-          <div class="profilepic"></div>
-          <div class="header">Уварова Александра</div>
-          <div class="header2">@sakujo_sakijo</div>
-          <div>Воронеж</div>
+            <div class="profilepic"></div>
+            <div class="header">Уварова Александра</div>
+            <div class="header2">@sakujo_sakijo</div>
+            <div>Воронеж</div>
           </div>
         </div>
       </div>
