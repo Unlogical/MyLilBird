@@ -50,7 +50,7 @@
           <div class="recommended">
           </div>  
           <div class="trends">   
-            <span class="header">Актуальные темы</span>
+            <span class="header">Актуальные темы</span> ·
             <a class="link" href="#" >Изменить</a>
             <ul class="list">
               <li><a class="link" href="#" >#Украина</a></li> 
@@ -68,7 +68,7 @@
           <div>
           <ul class="links">
             <li>© 2014 Twitter</li>
-            <li><a class="link2" href="#" > О нас</a></li>            
+            <li><a class="link2" href="#" >О нас</a></li>            
             <li><a class="link2" href="#" >Помощь</a></li>
             <li><a class="link2" href="#" >Условия</a></li>
             <li><a class="link2" href="#" >Конфидециальность</a></li>
