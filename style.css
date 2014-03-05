@@ -237,8 +237,26 @@ li {
   text-decoration: underline;
 }
 
-.reccomended input {
-  
+button {
+  font-weight: bold;
+  color: rgb(52,67,77);
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid  rgb(225, 232, 237);
+  border-radius: 5px;
+  background-color: rgb(245, 248, 250);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 248, 250));
+}
+
+button:hover {
+  background-image: linear-gradient(rgb(245, 248, 250), rgb(215, 222, 227));
+}
+
+button:active {
+  color: rgb(59,136,195);
+  border: 2px solid rgb(59,136,195);
+  background-color: rgb(245, 248, 250); 
 }
 
 /*ссылки*/
@@ -521,5 +539,14 @@ li {
 .ava1 {
   background-image: url(style/myface.png);
 }
+
+.bluebird {
+  float: right;
+  background-position: 0 -430px;
+  height: 15px;
+  width: 17px;
+  margin-left: 5px;
+}
+
 
 /*цвет ссылок  color: rgb(59,136,195);*/
