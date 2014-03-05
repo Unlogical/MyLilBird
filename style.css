@@ -224,6 +224,10 @@ li {
   background-image: url(style/photo6.jpg); 
 }
  /*Близкие по духу*/
+ 
+.user {
+  margin-bottom: 5px;
+}
 
 .name {
   font-weight: bold;
@@ -233,6 +237,9 @@ li {
 }
 
 .clip {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
 }
 
@@ -255,6 +262,7 @@ button {
 
 button:hover {
   background-image: linear-gradient(rgb(245, 248, 250), rgb(215, 222, 227));
+  cursor: pointer;
 }
 
 button:active {
