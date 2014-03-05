@@ -396,8 +396,12 @@ li {
   margin-top: 10px;
 }
 
-.tweets .user {
- 
+.tweets li:hover {
+  background-color: rgb(240,240,255);
+}
+
+.tweets li:hover .show {
+  color: rgb(59,136,195);
 }
 
 .tweets .name {
@@ -415,8 +419,11 @@ li {
 }
 
 .tweets .link {
-  color: rgb(102,117,127);
-  
+  color: rgb(102,117,127); 
+}
+
+.tweets .link:hover {
+  color: rgb(59,136,195);
 }
 
 /* ICONS*/
