@@ -548,5 +548,16 @@ button:active {
   margin-left: 5px;
 }
 
+.close {
+  display: block;
+  float: right;
+  background-position: -20px -510px;
+  height: 15px;
+  width: 15px;
+}
+
+.close:hover {
+  background-position: -40px -510px;
+}
 
 /*цвет ссылок  color: rgb(59,136,195);*/
