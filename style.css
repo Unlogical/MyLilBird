@@ -232,6 +232,10 @@ li {
   font-size: 12px;
 }
 
+.clip {
+  text-overflow: ellipsis;
+}
+
 .nick:hover .name {
   color: rgb(59,136,195);
   text-decoration: underline;
@@ -538,6 +542,14 @@ button:active {
 
 .ava1 {
   background-image: url(style/myface.png);
+}
+
+.ava2 {
+  background-image: url(style/ava2.jpg);
+}
+
+.ava3 {
+  background-image: url(style/ava3.jpg);
 }
 
 .bluebird {
