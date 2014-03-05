@@ -9,6 +9,11 @@ body {
   font-size: 12px;
   font-weight: bold;
   font-family: Liberation Sans;
+  line-height: 1.4;
+}
+
+li {
+  display: block;  
 }
 
 .centering {
@@ -145,7 +150,6 @@ body {
 }
 
 .verticalmenu li {
-  display: block;
   margin: 0px;
   padding: 0px;
   border-bottom: 1px solid rgb(192,207,217); 
@@ -220,15 +224,12 @@ body {
   background-image: url(style/photo6.jpg); 
 }
  /*Близкие по духу*/
- 
- .recommended li {
-  display: block; 
- }
 
 .name {
   font-weight: bold;
   color: rgb(52,67,77);
   text-decoration: none;
+  font-size: 12px;
 }
 
 .nick:hover .name {
@@ -241,11 +242,6 @@ body {
 }
 
 /*ссылки*/
-
-.list li {
-  display: block;
-}
-
 .link {
   text-decoration: none;
   color: rgb(59,136,195);
@@ -258,6 +254,10 @@ body {
 .header {
   font-size: 20px;
   font-weight: 200;
+}
+
+.links li {
+  margin-right: 5px;
 }
 
 .link2 {
@@ -334,7 +334,6 @@ body {
 }
 
 .bottom li {
-  display: block;
   float: left;
   padding-right: 10%;
 }
@@ -370,6 +369,54 @@ body {
   color: rgb(59,136,195);
   border: 2px solid rgb(59,136,195);
   background-color: rgb(245, 248, 250); 
+}
+
+/*ТВИТЫ*/
+.tweets {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tweets .header {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.tweets li {
+  border-top: 1px solid rgb(172,197,207);
+  width: 100%;
+  padding: 10px 0;
+}
+
+.tweets li:last-child {
+  border-bottom: 1px solid rgb(172,197,207);
+}
+
+.tweets li:first-of-type {
+  margin-top: 10px;
+}
+
+.tweets .user {
+ 
+}
+
+.tweets .name {
+  font-size: 14px;
+}
+
+.tweets .avatar {
+   margin: 5px 10px 15px 10px;
+}
+
+.tweet {
+  color: rgb(52,67,77);
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.tweets .link {
+  color: rgb(102,117,127);
+  
 }
 
 /* ICONS*/
