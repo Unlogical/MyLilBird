@@ -131,7 +131,7 @@ li {
 
 .contentleft > *, .contentright > * {
   border-radius: 5px;
-  background-color: rgb(248,248,248);
+  background-color: rgb(255,255,255);
   margin-top: 10px;
   padding: 10px;
 }
@@ -174,7 +174,7 @@ li {
 }
 
 .verticalmenu li:hover {
-  background-color: rgb(255,255,255);
+  background-color: rgb(248,248,248);
 }
 
 .verticalmenu li:hover a {
@@ -412,25 +412,25 @@ button:active {
   margin-bottom: 10px;
 }
 
-.tweets li {
+.tweets .user {
   border-top: 1px solid rgb(172,197,207);
   width: 100%;
   padding: 10px 0;
 }
 
-.tweets li:last-child {
+.tweets .user:last-child {
   border-bottom: 1px solid rgb(172,197,207);
 }
 
-.tweets li:first-of-type {
+.tweets .user:first-of-type {
   margin-top: 10px;
 }
 
-.tweets li:hover {
-  background-color: rgb(240,240,255);
+.tweets .user:hover {
+  background-color: rgb(248,248,248);
 }
 
-.tweets li:hover .show {
+.user:hover .show {
   color: rgb(59,136,195);
 }
 
@@ -448,12 +448,30 @@ button:active {
   padding: 0 10px;
 }
 
-.tweets .link {
-  color: rgb(102,117,127); 
+.tweets .show {
+   color: rgb(102,117,127);
+   text-decoration: none;
 }
 
-.tweets .link:hover {
+.tweets .link {
+  color: rgb(192,217,227)
+}
+
+.tweets .user:hover .link {
+  color:rgb(102,117,127); 
+}
+
+.tweets .show:hover {
   color: rgb(59,136,195);
+}
+
+.todolist {
+  float: right;
+}
+
+.todolist li {
+  float: left;
+  margin-right: 10px;
 }
 
 /* ICONS*/
@@ -579,5 +597,51 @@ button:active {
 .close:hover {
   background-position: -40px -510px;
 }
+
+.linkpic {
+  background-color: rgb(192,217,227); 
+  height: 15px;
+  width: 17px;
+}
+
+.tweets .user:hover .linkpic {
+  background-color: rgb(102,117,127);
+} 
+
+
+.answer {
+  background-position: 0 -190px;
+}
+
+.retweet {
+  background-position: -20px -190px;
+}
+
+.favorite {
+  background-position: -38px -190px;
+}
+
+.other {
+  background-position: 19px -190px;
+}
+
+
+.tweets .user:hover .answer {
+  background-position: 0 -220px;
+}
+
+.tweets .user:hover .retweet {
+  background-position: -20px -220px;
+}
+
+.tweets .user:hover .favorite {
+  background-position: -38px -220px;
+}
+
+.tweets .user:hover .other {
+  background-position: 19px -220px;
+}
+
+
 
 /*цвет ссылок  color: rgb(59,136,195);*/
