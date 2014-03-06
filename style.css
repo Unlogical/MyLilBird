@@ -110,25 +110,24 @@ li {
 }
 
 
-.search input{
-  width: 202px;
+.searchbox input{
+  width: 182px;
   height: 23px;
   background-color:rgb(208, 208, 208);
   color: rgb(68, 68, 68);
-  border-radius: 15px; 
+  border-radius: 15px 0 0 15px; 
   border: none;
   margin-top: 7px;
 }
 
-.search input:focus{
+.searchbox input:focus{
   background-color: rgb(255,255,255);
 }
 
-.searching {
+.searchbutton {
   display: block;
   float: right;
-  margin-left: -20px;
-  
+  border-radius: 0 15px 15px 0; 
 }
 
 /*CONTENT*/
@@ -238,10 +237,6 @@ li {
   background-image: url(style/photo6.jpg); 
 }
  /*Близкие по духу*/
- 
-.user {
-  margin-bottom: 5px;
-}
 
 .name {
   font-weight: bold;
@@ -423,7 +418,6 @@ button:active {
 
 .tweets .header {
   padding: 10px;
-  margin-bottom: 10px;
 }
 
 .tweets .user {
