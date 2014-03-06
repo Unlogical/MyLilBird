@@ -120,6 +120,17 @@ li {
   margin-top: 7px;
 }
 
+.search input:focus{
+  background-color: rgb(255,255,255);
+}
+
+.searching {
+  display: block;
+  float: right;
+  margin-left: -20px;
+  
+}
+
 /*CONTENT*/
 
 .content{
@@ -453,7 +464,7 @@ button:active {
 
 .tweets .show {
    color: rgb(102,117,127);
-   text-decoration: none;
+   text-decoration: none; 
 }
 
 .tweets .link {
@@ -473,13 +484,17 @@ button:active {
   color: rgb(59,136,195);
 }
 
-.todolist {
+.actionlist {
   float: right;
 }
 
-.todolist li {
+.actionlist li {
   float: left;
   margin-right: 10px;
+}
+
+.bottomlinks {
+  padding: 5px 0 0 70px;
 }
 
 /* ICONS*/
@@ -650,6 +665,10 @@ button:active {
   background-position: 19px -220px;
 }
 
-
+.searchpic {
+  height: 20px;
+  width: 15px;
+  background-position: 0 -500px;
+}
 
 /*цвет ссылок  color: rgb(59,136,195);*/
