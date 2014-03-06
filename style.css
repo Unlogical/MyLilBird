@@ -49,6 +49,7 @@ li {
 
 .rightmenu{
   height: 100%;
+  float: right;
 }
 
 .leftmenu > li, 
@@ -95,7 +96,7 @@ li {
   color: white;
 }
 
-/*
+
 .vertical_line {
   display: block;
   float: left;
@@ -104,7 +105,7 @@ li {
   background-color: green;
   background-image: url(style/twitter_web_sprite_icons.png);
   background-position: -239px -50px;
-}*/
+}
 
 
 .search input{
