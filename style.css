@@ -457,6 +457,11 @@ button:active {
   color: rgb(192,217,227)
 }
 
+.timelink {
+  text-decoration: none;
+  color: rgb(102,117,127);
+}
+
 .tweets .user:hover .link {
   color:rgb(102,117,127); 
 }
