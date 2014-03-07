@@ -110,7 +110,7 @@ li {
 .searchbox{
   display: block;
   float: right;
-  width: 202px;
+  width: 212px;
   margin-right: 10px;
 }
 
@@ -122,6 +122,7 @@ li {
   border-radius: 15px 0 0 15px; 
   border: none;
   margin-top: 7px;
+  padding-left: 10px;
 }
 
 .searchbox input:focus{
