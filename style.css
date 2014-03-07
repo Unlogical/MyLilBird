@@ -97,7 +97,6 @@ li {
   color: white;
 }
 
-
 .vertical_line {
   display: block;
   float: right;
@@ -676,10 +675,12 @@ li {
   background-position: 19px -220px;
 }
 
-.searchpic {
-  height: 20px;
-  width: 15px;
-  background-position: 0 -500px;
+.buttonpic {
+  display: block;
+  float: right;
+  height: 15px;
+  width: 25px; 
+  background-position: -10px -710px;
 }
 
 /*цвет ссылок  color: rgb(59,136,195);*/
