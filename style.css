@@ -21,7 +21,7 @@ li {
 }
 
 .centered{
-  width: 900px;
+  width: 950px;
   margin-left: -450px; 
 }
 
@@ -35,12 +35,16 @@ li {
   width: 100%;
   height: 38px;
   background-image: url(style/twitter_web_sprite_bgs.png);
+}
+
+.tools {
+  overflow: hidden;  
+  background-color: blue;
   
 }
 
 .tools > *{
   float: left;
-  
 }
 
 .leftmenu{
@@ -56,12 +60,14 @@ li {
 .rightmenu > li{
   display: block;
   float: left;
+  background-color: red;
 }
 
 .leftmenu > li > *,
 .rightmenu > .element > * {
   margin-top: 13px;
   margin-right: 10px;
+  background-color: red;
 }
 
 
@@ -143,14 +149,15 @@ li {
 .content{
   background: rgba(0,0,0,0.5);
   overflow: hidden;
-  padding: 40px 10px;
+  padding: 40px 0;
   text-decoration: none;
   color: rgb(102,117,127);
   font-family: Helvetica,Arial,sans-serif;
   font-weight: normal;
 }
 
-.contentleft > *, .contentright > * {
+.contentleft > *,
+.contentright > * {
   border-radius: 5px;
   background-color: rgb(255,255,255);
   margin-top: 10px;
@@ -159,10 +166,12 @@ li {
 
 /*ЛЕВАЯ ЧАСТЬ*/
 .contentleft{
-  width: 33%;
+  width: 32%;
   display: block;
   float: left;
+  margin-left: 10px;
 }
+
 /*ЛЕВОЕ ВЕРХНЕЕ МЕНЮ*/
 .verticalmenu {
    height: 100%;
@@ -335,9 +344,10 @@ li {
 /*ПРАВАЯ ЧАСТЬ*/
 
 .contentright {
-  width: 66%;
+  width: 64%;
   display: block;
   float: right;
+  margin-right: 10px;
 }
 
 .main {
