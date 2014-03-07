@@ -38,36 +38,30 @@ li {
 }
 
 .tools {
-  overflow: hidden;  
-  background-color: blue;
-  
-}
-
-.tools > *{
-  float: left;
+  overflow: hidden;    
 }
 
 .leftmenu{
   height: 100%;
+  margin-left: 10px;
 }
 
 .rightmenu{
   height: 100%;
   float: right;
+  margin-right: 20px;
 }
 
 .leftmenu > li, 
 .rightmenu > li{
   display: block;
   float: left;
-  background-color: red;
 }
 
 .leftmenu > li > *,
 .rightmenu > .element > * {
   margin-top: 13px;
   margin-right: 10px;
-  background-color: red;
 }
 
 
@@ -114,6 +108,12 @@ li {
 
 }
 
+.searchbox{
+  display: block;
+  float: right;
+  width: 202px;
+  margin-right: 10px;
+}
 
 .searchbox input{
   width: 182px;
@@ -140,7 +140,7 @@ li {
   background-color: rgb(208, 208, 208);
 }
 
- input:focus  ~ .searchbutton{
+ .searchbox input:focus  ~ .searchbutton{
   background-color: rgb(255,255,255);
 }
 
@@ -557,6 +557,7 @@ li {
 .birdpic {
   background-position: -35px 5px;
   margin-top: 5px;
+  margin-left: 70px;
 } 
 
 .messagepic {
