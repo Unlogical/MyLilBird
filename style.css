@@ -134,7 +134,7 @@ li {
 
 .content{
   background: rgba(0,0,0,0.5);
-  height: 1000px;
+  overflow: hidden;
   padding: 40px 10px;
   text-decoration: none;
   color: rgb(102,117,127);
