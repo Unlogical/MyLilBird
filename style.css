@@ -296,6 +296,7 @@ li {
   font-family: Helvetica,Arial,sans-serif;
   font-size: 12px;
   padding: 5px;
+  margin-bottom: 10px;
   border: 1px solid  rgb(225, 232, 237);
   border-radius: 5px;
   background-color: rgb(245, 248, 250);
@@ -627,7 +628,7 @@ li {
 }
 
 .ava1 {
-  background-image: url(style/myface.png);
+  background-image: url(style/ava1.jpg);
 }
 
 .ava2 {
@@ -636,6 +637,10 @@ li {
 
 .ava3 {
   background-image: url(style/ava3.jpg);
+}
+
+.ava4 {
+  background-image: url(style/ava4.jpg);
 }
 
 .bluebird {
