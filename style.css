@@ -124,10 +124,15 @@ li {
   background-color: rgb(255,255,255);
 }
 
-.searchbutton {
+.searchbox .searchbutton {
   display: block;
+  height: 23px;
+  width: 20px;
+  margin-top: 7px;
   float: right;
-  border-radius: 0 15px 15px 0; 
+  border: none;
+  border-radius: 0 15px 15px 0;
+  background-color: rgb(208, 208, 208);
 }
 
 /*CONTENT*/
@@ -261,7 +266,7 @@ li {
   text-decoration: underline;
 }
 
-button {
+.button {
   font-weight: bold;
   color: rgb(52,67,77);
   font-family: Helvetica,Arial,sans-serif;
@@ -273,12 +278,12 @@ button {
   background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 248, 250));
 }
 
-button:hover {
+.button:hover {
   background-image: linear-gradient(rgb(245, 248, 250), rgb(215, 222, 227));
   cursor: pointer;
 }
 
-button:active {
+.button:active {
   color: rgb(59,136,195);
   border: 2px solid rgb(59,136,195);
   background-color: rgb(245, 248, 250); 
