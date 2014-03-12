@@ -41,13 +41,7 @@ li {
   overflow: hidden;    
 }
 
-.leftmenu{
-  height: 100%;
-  margin-left: 10px;
-}
-
 .rightmenu{
-  height: 100%;
   float: right;
 }
 
