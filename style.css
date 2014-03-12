@@ -60,16 +60,16 @@ li {
 .leftmenu > li > *,
 .rightmenu > .element > * {
   margin-top: 13px;
-  margin-right: 10px;
 }
 
 
 .leftmenu > li{
-  height: 100%;
+  height:38px;
+  padding: 0 5px 0 5px;
 }
 
 .rightmenu > .element {
-  height: 26px;
+  height: 38px;
   width: 40px;
 }
 
@@ -90,6 +90,10 @@ li {
 .leftmenu .pic, 
 .rightmenu .pic{
   margin-top: -7px;
+}
+
+.current {
+  background-color: rgba(0,0,0,0.5);
 }
 
 .current a{
@@ -371,39 +375,67 @@ li {
 .profile {
   color: rgb(255,255,255);
   font-size: 14px;
- /* background-color: rgba(0,0,0,0.3);*/
   background-image: url(style/photo6.jpg);
-  height: 200px;
   text-align: center;
-  padding: 50px;
   background-size: cover;
   border-radius: 5px 5px 0 0;
 }
 
-.profile .header1 {
+.profileright {
+  height: 200px;
+  padding: 50px;
+}
+
+.profileleft {
+  height: 120px; 
+  padding-top: 20px;
+}
+
+.profileright .header1 {
   font-weight: bold;
   font-size: 24px;
 }
 
-.profile .header2 {
+.profileright .header2 {
   font-size: 20px;
+}
+
+.profileleft .header1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profileleft .header2 {
+  font-size: 14px;
 }
 
 .profilepic {
   background-image: url(style/myface.png);
-  width: 80px;
-  height: 80px;
-  border: 5px solid rgb(255,255,255);
-  border-radius:8px;
   background-position: center center;
   background-size: cover;
-  margin-left:210px;
+  margin-left:40%;
 }
+
+.profileright .profilepic{
+  height: 80px;
+  width: 80px;
+  border: 5px solid rgb(255,255,255); 
+  border-radius:8px;
+}
+
+.profileleft .profilepic{
+  height: 50px;
+  width: 50px;
+  border: 3px solid rgb(255,255,255);  
+  border-radius:3px;
+} 
 
 .bottom {
   padding: 10px;
   height: 40px;
 }
+
+
 
 .bottom a {
   text-decoration: none;
@@ -447,6 +479,17 @@ li {
   color: rgb(59,136,195);
   border: 2px solid rgb(59,136,195);
   background-color: rgb(245, 248, 250); 
+}
+
+.writetweet {
+  background-color: rgb(248,248,248);
+  border-radius: 0 0 5px 5px;
+  padding: 10px;
+}
+
+.writetweet input {
+  width: 100%;
+  height: 20px;
 }
 
 /*ТВИТЫ*/
@@ -539,6 +582,8 @@ li {
   background-image: url(style/twitter_web_sprite_icons.png);
 }
 
+
+
 .mainpic {
   background-position: 0 -50px;
 }
@@ -564,6 +609,42 @@ li {
 }
 
 .I_ampic {
+  background-position: -120px -50px;
+}
+
+*:hover > .I_ampic {
+  background-position: -120px -80px;
+}
+
+.currentpic.mainpic {
+  background-position: 0 -110px;
+}
+
+*:hover > .currentpic.mainpic {
+  background-position: 0 -110px;
+}
+
+.currentpic.onlinepic {
+  background-position: -80px -110px;
+}
+
+*:hover > .currentpic.onlinepic {
+  background-position: -80px -110px;
+}
+
+.currentpic.you_knowpic {
+  background-position: -40px -110px;
+}
+
+*:hover > .you_knowpic.mainpic {
+  background-position: -40px -110px;
+}
+
+.currentpic.I_ampic {
+  background-position: -120px -110px;
+}
+
+*:hover > .I_ampic.mainpic {
   background-position: -120px -110px;
 }
 
