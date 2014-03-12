@@ -558,7 +558,7 @@ li {
    text-decoration: underline; 
 }
 
-.user .link {
+.tweets .user .link {
   color: rgb(192,217,227)
 }
 
@@ -592,8 +592,16 @@ li {
   margin-left: 43px;
 }
 
-.up .linkpic {
+.up .linkpic, .nick .linkpic {
   margin-right: 10px;
+}
+
+.nick .linkpic {
+  margin-left: 43px;
+}
+
+.rewritetweet, .rewriteavatar {
+  margin-left: 70px;
 }
 
 /* ICONS*/
@@ -722,12 +730,15 @@ li {
   background-position: 0px -157px;
 }
 
- .avatar {
-  width: 50px;
-  height: 50px;
+ .avatar, .rewriteavatar {
   border-radius:5px;
   background-position: center center;
   background-size: cover;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
   margin-right: 10px;
 }
 
@@ -786,6 +797,11 @@ li {
   background-position: -20px -190px;
 }
 
+.retweetpic {
+  background-position: -20px -190px;
+  background-color: green;
+}
+
 .favorite {
   background-position: -38px -190px;
 }
@@ -799,12 +815,21 @@ li {
   background-color: orange;
 }
 
+.showpic {
+  background-position: 100px -190px; 
+}
+
 .tweets .user:hover .answer {
   background-position: 0 -220px;
 }
 
 .tweets .user:hover .retweet {
   background-position: -20px -220px;
+}
+
+.tweets .user:hover .retweetpic {
+  background-position: -20px -220px;
+  background-color: green;
 }
 
 .tweets .user:hover .favorite {
@@ -820,12 +845,22 @@ li {
   background-color: orange;
 }
 
+.tweets .user:hover .showpic {
+  background-position: 100px -220px;
+}
+
 .buttonpic {
   display: block;
   float: right;
   height: 15px;
   width: 25px; 
   background-position: -10px -710px;
+}
+
+.rewriteavatar {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
 }
 
 /*цвет ссылок  color: rgb(59,136,195);*/
