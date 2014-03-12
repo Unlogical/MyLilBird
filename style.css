@@ -317,12 +317,12 @@ li {
 }
 
 /*ссылки*/
-.link {
+.link, .up .link3 {
   text-decoration: none;
   color: rgb(59,136,195);
 }
 
-.link:hover {
+.link:hover, .up .link3:hover {
   text-decoration: underline;
 }
 
@@ -588,6 +588,14 @@ li {
   padding: 5px 0 0 70px;
 }
 
+.up {
+  margin-left: 43px;
+}
+
+.up .linkpic {
+  margin-right: 10px;
+}
+
 /* ICONS*/
 .pic {
   display: block;
@@ -786,6 +794,10 @@ li {
   background-position: 19px -190px;
 }
 
+.favoritepic {
+  background-position: -38px -190px;
+  background-color: orange;
+}
 
 .tweets .user:hover .answer {
   background-position: 0 -220px;
@@ -801,6 +813,11 @@ li {
 
 .tweets .user:hover .other {
   background-position: 19px -220px;
+}
+
+.tweets .user:hover .favoritepic {
+  background-position: -38px -220px;
+  background-color: orange;
 }
 
 .buttonpic {
