@@ -505,6 +505,20 @@ li {
   padding: 10px;
 }
 
+.tweets .header2 {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.tweets .header3 {
+  padding-left: 10px;
+}
+
+.header3 span {
+  font-weight: bold;
+  color: rgb(0,0,0);
+}
+
 .tweets .user {
   border-top: 1px solid rgb(172,197,207);
   width: 100%;
@@ -546,7 +560,11 @@ li {
    text-decoration: none; 
 }
 
-.tweets .link {
+.tweets .show:hover {
+   text-decoration: underline; 
+}
+
+.user .link {
   color: rgb(192,217,227)
 }
 
